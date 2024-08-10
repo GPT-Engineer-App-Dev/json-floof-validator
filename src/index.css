@@ -74,3 +74,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .json-validator-container {
+    @apply bg-white shadow-lg rounded-lg overflow-hidden;
+  }
+  
+  .json-validator-textarea {
+    @apply font-mono text-sm;
+  }
+  
+  .json-validator-button {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200;
+  }
+}
